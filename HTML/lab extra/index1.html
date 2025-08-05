@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* background-color: rgb(88, 132, 6); */
+        }
+
+        .ball1 {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation-name: ball1;
+            border-radius: 500px;
+
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            /* animation-delay: 2s; */
+            animation-iteration-count: 1;
+            animation-direction: normal;
+        }
+
+        @keyframes ball1 {
+            0% {
+                left: 0%;
+                top: 50%;
+                background-color: rgb(255, 0, 0);
+            }
+
+            100% {
+                left: 98.3%;
+                top: 50%;
+                background-color: red;
+            }
+        }
+
+        .ball2 {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation-name: ball2;
+            border-radius: 500px;
+
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 3s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+        }
+
+        @keyframes ball2 {
+            0% {
+                left: 98.3%;
+                top: 50%;
+                background-color: rgb(255, 0, 0);
+            }
+
+            100% {
+                left: 49%;
+                top: 0%;
+                background-color: red;
+            }
+        }
+
+        .ball3 {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation-name: ball3;
+            border-radius: 500px;
+
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 3s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+        }
+
+        @keyframes ball3 {
+            0% {
+                left: 98.3%;
+                top: 50%;
+                background-color: rgb(255, 0, 0);
+            }
+
+            100% {
+                left: 49%;
+                top: 98.3%;
+                background-color: red;
+            }
+        }
+
+        .ball4 {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation-name: ball4;
+            border-radius: 500px;
+
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 6s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+        }
+
+        @keyframes ball4 {
+            0% {
+                left: 49%;
+                top: 98.3%;
+                background-color: rgb(255, 0, 0);
+            }
+
+            50% {
+                left: 0%;
+                top: 49.15%;
+                background-color: red;
+            }
+
+            100% {
+                left: 49%;
+                top: 49.15%;
+                background-color: red;
+            }
+        }
+
+        .ball5 {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation-name: ball5;
+            border-radius: 500px;
+
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 6s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+        }
+
+        @keyframes ball5 {
+            0% {
+                left: 49%;
+                top: 0%;
+                background-color: rgb(255, 0, 0);
+            }
+
+            50% {
+                left: 0%;
+                top: 49.15%;
+                background-color: red;
+            }
+
+            100% {
+                left: 49%;
+                top: 49.15%;
+                background-color: red;
+            }
+        }
+
+        .ball6 {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation-name: ball6;
+            border-radius: 500px;
+
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 6s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+        }
+
+        @keyframes ball6 {
+            0% {
+                left: 49%;
+                top: 98.3%;
+                background-color: rgb(255, 0, 0);
+            }
+
+            100% {
+                left: 49%;
+                top: 49.15%;
+                background-color: red;
+            }
+        }
+
+        .ball7 {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation-name: ball7;
+            border-radius: 500px;
+
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 6s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+        }
+
+        @keyframes ball7 {
+            0% {
+                left: 49%;
+                top: 0%;
+                background-color: rgb(255, 0, 0);
+            }
+
+            100% {
+                left: 49%;
+                top: 49.15%;
+                background-color: red;
+            }
+        }
+
+        .ball8 {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation-name: ball8;
+            border-radius: 500px;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 9s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+        }
+
+        @keyframes ball8 {
+            0% {
+                left: 49%;
+                top: 49.15%;
+                background-color: rgb(255, 0, 0);
+            }
+
+            100% {
+                left: 98.3%;
+                top: 50%;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ball1"></div>
+    <div class="ball2"></div>
+    <div class="ball3"></div>
+    <div class="ball4"></div>
+    <div class="ball5"></div>
+    <div class="ball6"></div>
+    <div class="ball7"></div>
+    <div class="ball8"></div>
+</body>
+
+</html>
