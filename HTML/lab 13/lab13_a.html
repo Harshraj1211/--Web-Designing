@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(195, 160, 66);
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        header img {
+            height: 80px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            font-size: 18px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .subtitle {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .subtitle img {
+            height: 250px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .subtitle div {
+            margin-left: 20px;
+        }
+
+        .subtitle button {
+            border-radius: 30px;
+            height: 30px;
+            background-color: rgb(147, 255, 255);
+            cursor: pointer;
+        }
+
+        .welcome {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .LatestNews {
+            margin-left: 30px;
+        }
+
+        .LatestNews img {
+            height: 70px;
+            display: block;
+        }
+
+        @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .subtitle {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .subtitle div {
+                margin-left: 0;
+            }
+
+            .welcome {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .LatestNews {
+                margin-left: 0;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            header img {
+                height: 60px;
+            }
+
+            .nav-links {
+                font-size: 16px;
+            }
+
+            .subtitle img {
+                height: auto;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="spotify logo.jpeg" alt="Logo">
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Company</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="subtitle">
+            <img src="logo.jpg" alt="Subtitle Image">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis est fugiat, eligendi numquam
+                    ipsam quos non debitis!</p>
+                <button>Read More</button>
+            </div>
+        </section>
+
+        <div style="display: flex;">
+            <div class="welcome">
+                <div>
+                    <h3>Welcome to our WEBSITE!</h3>
+                    <p><b>This is a professional XHTML CSS layout provided by <u>TemplateMo.com</u> for free of charge.
+                            Credit goes to <u>Free Photos</u> for photos.</b></p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus voluptatibus animi
+                        exercitationem nam corporis explicabo illum sapiente alias adipisci.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus voluptatibus animi
+                        exercitationem nam corporis explicabo illum sapiente alias adipisci.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus voluptatibus animi
+                        exercitationem nam corporis explicabo illum sapiente alias adipisci.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus voluptatibus animi
+                        exercitationem nam corporis explicabo illum sapiente alias adipisci.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus voluptatibus animi
+                        exercitationem nam corporis explicabo illum sapiente alias adipisci.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus voluptatibus animi
+                        exercitationem nam corporis explicabo illum sapiente alias adipisci.</p>
+                </div>
+                <div class="LatestNews">
+                    <h3>Latest News</h3>
+                    <div>
+                        <img src="spotify logo.jpeg" alt="News">
+                        <p><b>OCT 29, 2024</b> - Lorem ipsum dolor magni voluptatem, aliquam consequatur fugiat molestias.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="spotify logo.jpeg" alt="News">
+                        <p><b>OCT 29, 2024</b> - Lorem ipsum dolor magni voluptatem, aliquam consequatur fugiat molestias.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="spotify logo.jpeg" alt="News">
+                        <p><b>OCT 29, 2024</b> - Lorem ipsum dolor magni voluptatem, aliquam consequatur fugiat molestias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

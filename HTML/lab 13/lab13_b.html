@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .icons img {
+            height: 30px;
+        }
+
+        header img {
+            height: 80px;
+            cursor: pointer;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 0 10px;
+        }
+
+        header button {
+            background-color: rgb(47, 178, 230);
+            color: white;
+            border-radius: 50px;
+            font-size: 20px;
+            padding: 10px 30px;
+            border: none;
+        }
+        header button:hover{
+            color: rgb(47, 178, 230);
+            background-color: white;
+            transform: scale(1.2);
+            transition-duration: 1s;
+        }
+
+        main {
+            background-color: gray;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .banner {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .event-card {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .event-card:hover{
+            transform: scale(1.1);
+            transition-duration: 2s;
+            background-color: antiquewhite;
+
+        }
+        .event-card img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .event-card button {
+            background-color: rgb(123, 181, 231);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: none;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .event-card button:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+            background-color: white;
+            color: rgb(123, 181, 231);
+        }
+
+        @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .icons {
+                justify-content: center;
+                margin-top: 10px;
+            }
+
+            header a {
+                font-size: 16px;
+                margin: 5px;
+            }
+
+            header button {
+                font-size: 16px;
+                padding: 8px 20px;
+            }
+
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .event-card {
+                width: 90%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo-removebg-preview.png" alt="Logo">
+        <nav>
+            <a href="#">HTML Templates</a>
+            <a href="#">More HTML Templates</a>
+        </nav>
+        <button>DOWNLOAD NOW</button>
+        <div class="icons">
+            <img src="youtube_icon.png" alt="YouTube">
+            <img src="facebook_icon.png" alt="Facebook">
+            <img src="instagram_icon.png" alt="Instagram">
+            <img src="twitter_icon.png" alt="Twitter">
+            <img src="google-plus_icon.png" alt="google plus">
+            <img src="linkedin_icon.png" alt="Linkedin">
+            <img src="pinterest_icon.png" alt="Pinterest">
+        </div>
+    </header>
+
+    <main>
+        <img src="banner.jpg" class="banner" alt="Banner">
+        <div class="content">
+            <div class="event-card">
+                <img src="night_lasershow.webp" alt="Laser Show">
+                <h3>Night Laser Show</h3>
+                <p>10/05/2018 - #hip-hop #mb #dance
+                    <br>
+                    We are happy to announce this special laser show.
+                </p>
+                <button>See more...</button>
+            </div>
+            <div class="event-card">
+                <img src="party.jpg" alt="Music Show">
+                <h3>Music Show</h3>
+                <p>10/05/2018 - #hip-hop #mb #dance
+                    <br>
+                    We are happy to announce this special laser show.
+                </p>
+                <button>See more...</button>
+            </div>
+            <div class="event-card">
+                <img src="dj.webp" alt="DJ Night">
+                <h3>DJ Night</h3>
+                <p>10/05/2018 - #hip-hop #mb #dance
+                    <br>
+                    We are happy to announce this special laser show.
+                </p>
+                <button>See more...</button>
+            </div>
+            <div class="event-card">
+                <img src="party.jpg" alt="Party Night">
+                <h3>Party Night</h3>
+                <p>10/05/2018 - #hip-hop #mb #dance
+                    <br>
+                    We are happy to announce this special laser show.
+                </p>
+                <button>See more...</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
