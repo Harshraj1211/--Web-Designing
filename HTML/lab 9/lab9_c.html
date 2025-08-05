@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Saver Animation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: black;
+        }
+        .ball1 {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            border-radius: 50%;
+            animation: moveBall1 1s linear infinite alternate-reverse;
+        }
+        @keyframes moveBall1 {
+            0% {
+                top: 0;
+                left: 0;
+            }
+            25% {
+                top: 0;
+                left: 90%;
+            }
+            50% {
+                top: 90%;
+                left: 90%;
+            }
+            75% {
+                top: 90%;
+                left: 0;
+            }
+            100% {
+                top: 0;
+                left: 0;
+            }
+        }
+        .ball2 {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: skyblue;
+            border-radius: 50%;
+            animation: moveBall2 5s linear infinite forwards;
+        }
+        @keyframes moveBall2 {
+            0% {
+                top: 0%;
+                left: 30%;
+            }
+            10%{
+                top: 100%;
+                left: 70%;
+            }
+            20%{
+                top: 75%;
+                left: 85%;
+            }
+            30%{
+                top: 50%;
+                left: 100%;
+            }
+            40%{
+                top: 25%;
+                left: 85%;
+            }
+            50%{
+                top: 0%;
+                left: 70%;
+            }
+            60%{
+                top: 100%;
+                left: 30%;
+            }
+            70%{
+                top: 75%;
+                left: 15%;
+            }
+            80%{
+                top: 50%;
+                left: 0%;
+            }
+            90%{
+                top: 25%;
+                left: 15%;
+            }
+            100%{
+                top: 0%;
+                left: 30%;
+            }
+        }
+        .ball3{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(95, 42, 254);
+            border-radius: 50%;
+            animation: moveBall3 4s linear infinite alternate-reverse;
+        }
+        @keyframes moveBall3 {
+            0% {
+                top: 0%;
+                left: 30%;
+            }
+            10%{
+                top: 25%;
+                left: 15%;
+            }
+            20%{
+                top: 50%;
+                left: 0%;
+            }
+            30%{
+                top: 75%;
+                left: 15%;
+            }
+            40%{
+                top: 100%;
+                left: 30%;
+            }
+            50%{
+                top: 0%;
+                left: 70%;
+            }
+            60%{
+                top: 25%;
+                left: 85%;
+            }
+            70%{
+                top: 50%;
+                left: 100%;
+            }
+            80%{
+                top: 75%;
+                left: 85%;
+            }
+            90%{
+                top: 100%;
+                left: 70%;
+            }
+            100%{
+                top: 0%;
+                left: 30%;
+            }
+        }
+        .ball4{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(70, 255, 63);
+            border-radius: 50%;
+            animation: moveBall4 4s linear infinite alternate-reverse;
+        }
+        @keyframes moveBall4 {
+            0% {
+                top: 0%;
+                left: 30%;
+            }
+            10%{
+                top: 50%;
+                left: 15%;
+            }
+            20%{
+                top: 50%;
+                left: 60%;
+            }
+            30%{
+                top: 75%;
+                left: 10%;
+            }
+            40%{
+                top: 10%;
+                left: 40%;
+            }
+            50%{
+                top: 70%;
+                left: 70%;
+            }
+            60%{
+                top: 65%;
+                left: 85%;
+            }
+            70%{
+                top: 30%;
+                left: 70%;
+            }
+            80%{
+                top: 73%;
+                left: 55%;
+            }
+            90%{
+                top: 50%;
+                left: 70%;
+            }
+            100%{
+                top: 0%;
+                left: 30%;
+            }
+        }
+        .ball5{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(220, 32, 237);
+            border-radius: 50%;
+            animation: moveBall5 4s linear infinite alternate-reverse;
+        }
+        @keyframes moveBall5 {
+            0% {
+                top: 100%;
+                left: 100%;
+            }
+            25%{
+                top: 75%;
+                left: 10%;
+            }
+            50%{
+                top: 70%;
+                left: 70%;
+            }
+            75%{
+                top: 30%;
+                left: 70%;
+            }
+            100%{
+                top: 0%;
+                left: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ball1"></div>
+    <div class="ball2"></div>
+    <div class="ball3"></div>
+    <div class="ball4"></div>
+    <div class="ball5"></div>
+    <div class="ball6"></div>
+    <div class="ball7"></div>
+</body>
+</html>
